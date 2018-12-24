@@ -28,15 +28,15 @@ the message m!
 
 as two messages are given -> m1 and m2, we know that
  
-1.c1 = (m1**e) % n3 , and
-2.c2 = (m2**e) % n3 
+c1 = (m1^e) % n3 ,
+c2 = (m2^e) % n3 
 
-so, as we know m1**3 and m2**3 
+so, as we know m1^3 and m2^3 , also c1 , and c2 
 
-n31 = (m1**3) - c1 = n3 * a (for some a) 
-n32 = (m2**3) - c2 = n3 * b (for some b)
+n31 = (m1^3) - c1 = n3 * a (for some a) ,
+n32 = (m2^3) - c2 = n3 * b (for some b)
 
-... and c1 and c2, we can find n3 as n3 is clearly the GCD of the two(n31 and n32) 
+we can find n3 as n3 is clearly the GCD of the two(n31 and n32) 
 
 n3 = GCD (n31,n32)
 
@@ -47,4 +47,4 @@ using CRT code from : https://github.com/ashutosh1206/Crypton/blob/master/RSA-en
 we get the flag as : inctf{H@5htaD_Br0adCa5t_@ft3r_R3tr1eving_M0dulu3_b3c0m3s_e@Sy}
 
 Cool!
-
+Great challenge..!
